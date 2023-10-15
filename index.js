@@ -366,7 +366,7 @@ const locationDetect = () => {
 const newsContent = () => {
     const newsC = document.getElementById('news-temp');
 
-    const apiKey = '438c0474d32742e18b9f087a9bacc809';
+    const apiKey = '4347232e588b43a0b8474309231410';
     const url = `https://newsapi.org/v2/everything?q=weather&apiKey=${apiKey}`;
 
     fetch(url)
